@@ -15,7 +15,6 @@ X = df.values[:, 1:-1]
 X1 = X[:, 0]
 X2 = X[:, -2]
 
-
 # 1. addition and subtraction
 result_add = X1 + X2
 result_sub = X1 - X2
