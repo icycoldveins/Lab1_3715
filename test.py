@@ -28,7 +28,7 @@ result_sub = X1 - X2
 # 2. element-wise multiplication
 result_mul = np.multiply(X1, X2)
 # 3. inner product
-print("inner product: {}".format(np.inner(X1,X2)))
+result_inner=(np.inner(X1,X2))
 # 4. three norms
 l1_norm = np.linalg.norm(X1-X2, ord=1)
 l2_norm = np.linalg.norm(X1-X2, ord=2)
