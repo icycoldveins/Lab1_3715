@@ -28,9 +28,10 @@ result_sub = X1 - X2
 # 2. element-wise multiplication
 result_mul = np.multiply(X1, X2)
 # 3. inner product
-result_inner=(np.inner(X1,X2))
+result_inner = (np.inner(X1, X2))
 # 4. three norms
 l1_norm = np.linalg.norm(X1-X2, ord=1)
 l2_norm = np.linalg.norm(X1-X2, ord=2)
 linf_norm = np.linalg.norm(X1-X2, ord=np.inf)
 # 5. compute the distance between these two vectors
+distance = np.linalg.norm(X1 - X2, ord=2)
